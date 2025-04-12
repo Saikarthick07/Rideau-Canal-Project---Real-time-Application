@@ -10,7 +10,7 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
 
 ## 🏗️ System Architecture
 
-![Architecture Diagram](screenshots/architecture-diagram.png)
+![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/ArchitectureDiagram_RideauCanal.png)
 
 **Components:**
 
