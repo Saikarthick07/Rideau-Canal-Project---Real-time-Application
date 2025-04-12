@@ -49,13 +49,13 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
 
 ## Azure IOT HUB Creation:
 
-The simulated sensor data is fed into the IOT Hub. In order the fed the simulated random Rideau Canal data from the python script into the Azure IOT Hub, create a sensor device from the IOT Hub and copy the primary string connection from the sesnor device and paste it into the data simulating python script.
+The simulated sensor data is fed into the IOT Hub. In order the fed the simulated random Rideau Canal data from the python script into the Azure IOT Hub, create  sensor devices from the IOT Hub and copy the primary string connection from the sesnor device and paste it into the data simulating python script.
 
 ![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/Sensor12.png)
 
 ## Straem Analytics Creation:
 
-In order the analyze the incoming datas from IOT Hub, make the conditions accordingly.
+The incoming datas from IOT Hub is processed based on the condition given in the Query and stores the analysed data into the directory specified in the Output alias(Blob Storage), make the conditions accordingly.
 
 ![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/SAJ.png)
 ![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/SAJ%20Query.png)
@@ -63,9 +63,9 @@ In order the analyze the incoming datas from IOT Hub, make the conditions accord
 
 ## Azure Blob Storage:
 
-Store the analyzed data into the AzurE Blob Storage 
+The analyzed data from the azure stream analytics gets stored into the Azure Blob container 
 
-![Architecture Diagram](
+![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/Analysed%20Data.png)
 
 ## Analysed Data Visualtion:
 
