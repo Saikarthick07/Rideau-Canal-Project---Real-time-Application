@@ -32,7 +32,7 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
 
 - Every 10 seconds, the script sends JSON payloads to Azure IoT Hub:
 
-```json
+##```json
 {
   "location": "Dow's Lake",
   "iceThickness": 27,
@@ -41,4 +41,42 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
   "externalTemperature": -4,
   "timestamp": "2024-11-23T12:00:00Z"
 }
+
+![Architecture Diagram]()
+![Architecture Diagram]()
+
+
+
+## Azure IOT HUB Creation:
+
+The simulated sensor data is fed into the IOT Hub. In order the fed the simulated random Rideau Canal data from the python script into the Azure IOT Hub, create a sensor device from the IOT Hub and copy the primary string connection from the sesnor device and paste it into the data simulating python script.
+
+![Architecture Diagram](
+
+## Straem Analytics Creation:
+
+In order the analyze the incoming datas from IOT Hub, make the conditions accordingly.
+
+
+![Architecture Diagram](
+
+## Azure Blob Storage:
+
+Store the analyzed data into the AzurE Blob Storage 
+
+![Architecture Diagram](
+
+## Analysed Data Visualtion:
+
+The analyzed data is then saved into the blob container as JSON format.
+
+![Architecture Diagram]()
+
+
+
+
+
+
+
+
 
