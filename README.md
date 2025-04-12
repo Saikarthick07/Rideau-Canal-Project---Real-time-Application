@@ -42,7 +42,7 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
   "timestamp": "2024-11-23T12:00:00Z"
 }
 
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/Sensor1%20gen.png)
 ![Architecture Diagram]()
 
 
