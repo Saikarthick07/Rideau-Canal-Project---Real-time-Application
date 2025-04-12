@@ -30,7 +30,7 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
   - Fifth Avenue
   - National Arts Centre (NAC)
 
-- Every 10 seconds, the script sends JSON payloads to Azure IoT Hub:
+- Every 5 seconds, the script sends JSON payloads to Azure IoT Hub:
 
 ##```json
 {
@@ -71,7 +71,7 @@ The analyzed data from the azure stream analytics gets stored into the Azure Blo
 
 The analyzed data is then saved into the blob container as JSON format.
 
-![Architecture Diagram]()
+![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/analysed%20data1.png)
 
 
 
