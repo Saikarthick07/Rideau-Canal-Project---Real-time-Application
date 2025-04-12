@@ -51,7 +51,7 @@ The solution delivers this data through an end-to-end Azure data pipeline — fr
 
 The simulated sensor data is fed into the IOT Hub. In order the fed the simulated random Rideau Canal data from the python script into the Azure IOT Hub, create a sensor device from the IOT Hub and copy the primary string connection from the sesnor device and paste it into the data simulating python script.
 
-![Architecture Diagram](
+![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/Sensor12.png)
 
 ## Straem Analytics Creation:
 
