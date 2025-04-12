@@ -58,6 +58,8 @@ The simulated sensor data is fed into the IOT Hub. In order the fed the simulate
 In order the analyze the incoming datas from IOT Hub, make the conditions accordingly.
 
 ![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/SAJ.png)
+![Architecture Diagram](https://github.com/Saikarthick07/Rideau-Canal-Project---Real-time-Application/blob/main/Images/SAJ%20Query.png)
+
 
 ## Azure Blob Storage:
 
